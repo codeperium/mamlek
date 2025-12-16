@@ -1,68 +1,54 @@
 <section>
     <h1>Mam lek</h1>
-    <header>
-        <h2>Witaj</h2>
-        <button class="cta">CTA</button>
+    <header class="hero">
+        <h2>Największy problem</h2>
+        <p>Nasze główne rozwiązanie</p>
+        <button class="cta">Zyskaj wczesny dostęp</button>
     </header>
     <main>
-        <section>
+        <section class="cards">
             <h2>Rozwiązujemy Twoje problemy.</h2>
-            <article>
+            <article class="card">
                 <h3>Problem 1</h3>
                 <p>Rozwiązanie.</p>
             </article>
-            <article>
+            <article class="card">
                 <h3>Problem 2</h3>
                 <p>Rozwiązanie.</p>
             </article>
-            <article>
-                <h3>Problem 3</h3>
-                <p>Rozwiązanie.</p>
-            </article>
-            <article>
-                <h3>Problem 4</h3>
-                <p>Rozwiązanie.</p>
-            </article>
-            <article>
-                <h3>Problem 5</h3>
-                <p>Rozwiązanie.</p>
-            </article>
         </section>
-        <section>
+        <section class="breakpoint">
             <h2>Nie czekaj</h2>
-            <button class="cta">CTA</button>
+            <button class="cta">Zyskaj wczesny dostęp</button>
         </section>
-        <section>
-            <h2>Więcej informacji</h2>
-            <article>
-                <h3>Informacja 1</h3>
-                <p>Informacja.</p>
-            </article>
-            <article>
-                <h3>Informacja 2</h3>
-                <p>Informacja.</p>
-            </article>
-            <article>
-                <h3>Informacja 3</h3>
-                <p>Informacja.</p>
-            </article>
-            <article>
-                <h3>Informacja 4</h3>
-                <p>Informacja.</p>
-            </article>
-            <article>
-                <h3>Informacja 5</h3>
-                <p>Informacja.</p>
-            </article>
+        <section class="demo">
+            <h2>Demonstracja</h2>
+            <div>Iframe.</div>
         </section>
     </main>
     <footer>
         <h2>Jeszcze chwila</h2>
-        <section>
-            <h3>Demonstracja</h3>
-            <div>Iframe.</div>
+        <section class="context">
+            <h3>Kontekst</h3>
+            <p>Opis kontekstu.</p>
+            <ul>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+            </ul>
+            <div>
+                <ul>
+                    <li>Czym jest rozwiazanie 1</li>
+                    <li>Czym jest rozwiazanie 2</li>
+                    <li>Czym jest rozwiazanie 3</li>
+                </ul>
+                <ul>
+                    <li>Czym nie jest element 1</li>
+                </ul>
+            </div>
         </section>
-        <section>
+
+        <section class="breakpoint">
             <h3>Ostatnia szansa</h3>
             <form>
                 <input type="email" placeholder="Twój email" required />
