@@ -31,19 +31,14 @@
         <section class="context">
             <h3>Kontekst</h3>
             <p>Opis kontekstu.</p>
-            <ul>
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-            </ul>
             <div>
                 <ul>
                     <li>Czym jest rozwiazanie 1</li>
                     <li>Czym jest rozwiazanie 2</li>
-                    <li>Czym jest rozwiazanie 3</li>
                 </ul>
                 <ul>
-                    <li>Czym nie jest element 1</li>
+                    <li>Czym nie jest rozwiazanie 1</li>
+                    <li>Czym nie jest rozwiazanie 2</li>
                 </ul>
             </div>
         </section>
