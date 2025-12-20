@@ -32,6 +32,8 @@
             </p>
         </article>
         <article class="card">
+            <!-- TODO: zmiana tekstu "kupujesz czesto", bo ludzie czesto nie
+            kupuja, a celujemy we wszystkie matki 20-30 -->
             <h3>
                 Ten sam lek potrafi kosztować różnie w zależności od apteki - a
                 przepłacanie boli najbardziej, gdy kupujesz często.
@@ -91,12 +93,15 @@
 
     <section class="breakpoint">
         <h3>Ostatnia szansa</h3>
+        <!-- Need some trustliner -->
         {#if !isSuccess && !isError}
             <form method="post">
+                <!-- better validation for email input -->
                 <input
                     type="email"
                     placeholder="Twój email"
                     name="email"
+                    autocomplete="email"
                     required
                 />
                 <input
@@ -110,7 +115,7 @@
                 </button>
             </form>
         {:else if isSuccess && !isError}
-            <p>Twoje powiadomienie zostało wysłane!</p>
+            <p>Dzięki! Dodaliśmy Cię do listy. Odezwę się, gdy startujemy.</p>
         {:else}
             <p>
                 Wystąpił błąd podczas wysyłania powiadomienia. Spróbuj ponownie
