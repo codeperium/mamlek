@@ -1,20 +1,36 @@
 <section>
     <h1>Mam lek</h1>
     <header class="hero">
-        <h2>Największy problem</h2>
-        <p>Nasze główne rozwiązanie</p>
+        <h2>
+            Stres związany z chorbą dziecka, zmusza nas do podejmowania
+            emocjonalnych, <em>często</em> niekorzystnych decyji.
+        </h2>
+        <p>
+            Porównywarka cen leków OTC w Twojej okolicy w Twoim telefonie,
+            dostępne w czasie rzeczywistym.
+        </p>
         <button class="cta">Zyskaj wczesny dostęp</button>
     </header>
     <main>
         <section class="cards">
             <h2>Rozwiązujemy Twoje problemy.</h2>
             <article class="card">
-                <h3>Problem 1</h3>
-                <p>Rozwiązanie.</p>
+                <h3>Ponad 50% użytkowników nie porównuje cen leków OTC</h3>
+                <p class="sub-issue">
+                    Ponad 50% użytkowników płaci
+                    <strong>nawet 60% więcej</strong> za ten sam lek.
+                </p>
+                <p class="solution">
+                    Ceny leków w Towjej okolicy w Twoim telefonie, dostępne w
+                    czasie rzeczywistym.
+                </p>
             </article>
             <article class="card">
-                <h3>Problem 2</h3>
-                <p>Rozwiązanie.</p>
+                <h3>Brak rozwiązania dla urządzeń mobilnych.</h3>
+                <p>
+                    Mobile first - aby zaspokoić potrzeby ponad 50%
+                    użytkowników.
+                </p>
             </article>
         </section>
         <section class="breakpoint">
@@ -27,18 +43,27 @@
         </section>
     </main>
     <footer>
-        <h2>Jeszcze chwila</h2>
+        <h2>Czy jesteś zainteresowana?</h2>
         <section class="context">
             <h3>Kontekst</h3>
-            <p>Opis kontekstu.</p>
+            <p>
+                Nasze rozwiązanie zaspokaja potrzeby
+                <strong>młodych matek</strong>, które dbając o swoje pociechy
+                chcą <em>zaoszczędzić pieniądze</em> nie przepłacając za leki.
+            </p>
             <div>
-                <ul>
-                    <li>Czym jest rozwiazanie 1</li>
-                    <li>Czym jest rozwiazanie 2</li>
+                <p>Czym jest MamLek:</p>
+                <ul class="what-is-solution">
+                    <li>
+                        Porównywarka cen <em>leków dostępnych bez recepty </em> w
+                        czasie rzeczywistym.
+                    </li>
+                    <li>Sprawdzanie dostępności leków w Twojej okolicy.</li>
                 </ul>
-                <ul>
-                    <li>Czym nie jest rozwiazanie 1</li>
-                    <li>Czym nie jest rozwiazanie 2</li>
+                <p>Czym MamLek <strong>NIE</strong> jest:</p>
+                <ul class="what-is-not-solution">
+                    <li>Aplikacja do rezerwacji leków.</li>
+                    <li>Realizowanie recept.</li>
                 </ul>
             </div>
         </section>
