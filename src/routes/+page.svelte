@@ -125,3 +125,15 @@
     </section>
 </main>
 <footer></footer>
+
+<style lang="postcss">
+    @reference "tailwindcss";
+    @reference "./layout.css";
+    :global(html) {
+        @apply font-roboto;
+        @apply xl:max-w-7xl m-auto;
+    }
+    h1 {
+        @apply font-extrabold text-4xl;
+    }
+</style>
