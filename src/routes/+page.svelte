@@ -115,9 +115,11 @@
                 </button>
             </form>
         {:else if isSuccess && !isError}
-            <p>Dzięki! Dodaliśmy Cię do listy. Odezwę się, gdy startujemy.</p>
+            <p class="message">
+                Dzięki! Dodaliśmy Cię do listy. Odezwę się, gdy startujemy.
+            </p>
         {:else}
-            <p>
+            <p class="message">
                 Wystąpił błąd podczas wysyłania powiadomienia. Spróbuj ponownie
                 później.
             </p>
@@ -133,7 +135,37 @@
         @apply font-roboto;
         @apply xl:max-w-7xl m-auto;
     }
-    h1 {
-        @apply font-extrabold text-4xl;
+    :global(body) {
+        @apply font-roboto font-normal text-sm leading-relaxed;
+    }
+    :global(h1) {
+        @apply font-extrabold text-6xl leading-tight tracking-tight;
+    }
+    :global(h2) {
+        @apply font-bold text-2xl leading-tight tracking-tight;
+    }
+    :global(h3) {
+        @apply font-bold text-lg leading-snug tracking-tight;
+    }
+    :global(p) {
+        @aply font-normal text-sm leading-relaxed;
+    }
+    :global(strong) {
+        @apply font-bold;
+    }
+    :global(ul) {
+        @aaply m-0 pl-5 text-sm leading-relaxed;
+    }
+    :global(li) {
+        @apply text-sm leading-relaxed font-normal;
+    }
+    :global(input[type="email"]) {
+        @apply text-sm leading-tight font-normal;
+    }
+    :global(button.cta) {
+        @apply text-sm leading-none font-semibold tracking-normal;
+    }
+    :global(p.message) {
+        @aaply text-base leading-normal font-semibold tracking-tight;
     }
 </style>
