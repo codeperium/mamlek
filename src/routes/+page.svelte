@@ -15,7 +15,7 @@
 </script>
 
 <header class="hero mb-7">
-    <div class="hero-gradient relative p-10">
+    <div class="hero-gradient p-10">
         <h2 class="mb-7">
             Leki taniej i od ręki - <br /> sprawdź ceny i dostępność w aptekach blisko
             Ciebie.
@@ -243,7 +243,7 @@
     @reference "tailwindcss";
     @reference "./layout.css";
     :global(html) {
-        @apply font-roboto;
+        @apply font-roboto overflow-x-hidden;
     }
     :global(body) {
         @apply font-roboto font-normal text-sm leading-relaxed;
