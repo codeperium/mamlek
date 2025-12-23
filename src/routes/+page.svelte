@@ -100,35 +100,39 @@
                 Znajdź leki teraz
             </Button>
         </section>
-        <section class="demo mb-15">
-            <h2 class="hidden">Demonstracja</h2>
-            <div class="flex align-center flex-col">
-                <div class="demo-stage">
-                    <img
-                        class="max-w-[800px]"
-                        alt="categories"
-                        src="/assets/images/categories.webp"
-                    />
-                    <h3>Przejrzysty wybór kategorii</h3>
-                </div>
-                <div class="demo-stage">
-                    <img
-                        class="max-w-[600px]"
-                        alt="categories"
-                        src="/assets/images/subcategories.webp"
-                    />
-                    <h3>Leki w wybranej kategorii</h3>
-                </div>
-                <div class="demo-stage">
-                    <img
-                        class="max-w-[600px]"
-                        alt="categories"
-                        src="/assets/images/product.webp"
-                    />
-                    <h3>Porównaj ceny i dostępność</h3>
-                </div>
+    </div>
+    <section class="demo mb-15">
+        <h2 class="hidden">Demonstracja</h2>
+        <div
+            class="flex align-center flex-col xl:flex-row xl:justify-center xl:items-center"
+        >
+            <div class="demo-stage xl:order-1">
+                <img
+                    class="max-w-[700px] xl:max-w-[500px]"
+                    alt="categories"
+                    src="/assets/images/categories.webp"
+                />
+                <h3>Przejrzysty wybór kategorii</h3>
             </div>
-        </section>
+            <div class="demo-stage xl:order-3">
+                <img
+                    class="max-w-[500px]"
+                    alt="subcategories"
+                    src="/assets/images/subcategories.webp"
+                />
+                <h3>Leki w wybranej kategorii</h3>
+            </div>
+            <div class="demo-stage xl:order-2">
+                <img
+                    class="max-w-[500px] xl:max-w-[700px]"
+                    alt="product"
+                    src="/assets/images/product.webp"
+                />
+                <h3>Porównaj ceny i dostępność</h3>
+            </div>
+        </div>
+    </section>
+    <div class="container">
         <h2 class="mb-5">Czy jesteś zainteresowana?</h2>
         <section class="context mb-15">
             <h3 class="hidden">Kontekst</h3>
