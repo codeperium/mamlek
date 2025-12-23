@@ -25,6 +25,7 @@ export const actions = {
     const email = data.get("email");
     const url = new URL(request.url);
     const source = url.searchParams.get("src") ?? "organic";
+    console.log(email);
 
     if (!email || typeof email !== "string") {
       return {
