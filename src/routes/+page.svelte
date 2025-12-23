@@ -247,7 +247,7 @@
     }
     :global(body) {
         @apply font-roboto font-normal text-sm leading-relaxed;
-        @apply max-w-sm my-4 m-auto;
+        @apply max-w-sm my-4 m-auto overflow-x-hidden;
         @apply xl:max-w-7xl xl:my-6;
     }
     :global(h1) {
@@ -282,15 +282,6 @@
     }
     header {
         @apply h-[700px] xl:h-[500px];
-        background-image: url("assets/images/hero.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: right -250px bottom 85%;
-    }
-    header .hero-gradient {
-        display: block;
-        width: 100%;
-        height: 100%;
         background: linear-gradient(
             90deg,
             rgba(213, 230, 233, 1) 40%,
