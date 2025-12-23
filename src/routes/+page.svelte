@@ -282,7 +282,7 @@
     }
     header {
         @apply h-[700px] xl:h-[500px];
-        background-image: url("assets/images/hero.jpg");
+        background-image: url("assets/images/hero.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: right -250px bottom 85%;
