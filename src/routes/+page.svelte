@@ -281,7 +281,7 @@
         @apply text-base leading-normal font-semibold tracking-tight;
     }
     header {
-        height: 500px;
+        @apply h-[700px] xl:h-[500px];
         background-image: url("assets/images/hero.jpg");
         background-repeat: no-repeat;
         background-size: cover;
