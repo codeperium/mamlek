@@ -107,7 +107,7 @@
                     <img
                         class="max-w-[800px]"
                         alt="categories"
-                        src="assets/images/categories.webp"
+                        src="/assets/images/categories.webp"
                     />
                     <h3>Przejrzysty wybór kategorii</h3>
                 </div>
@@ -115,7 +115,7 @@
                     <img
                         class="max-w-[600px]"
                         alt="categories"
-                        src="assets/images/subcategories.webp"
+                        src="/assets/images/subcategories.webp"
                     />
                     <h3>Leki w wybranej kategorii</h3>
                 </div>
@@ -123,7 +123,7 @@
                     <img
                         class="max-w-[600px]"
                         alt="categories"
-                        src="assets/images/product.webp"
+                        src="/assets/images/product.webp"
                     />
                     <h3>Porównaj ceny i dostępność</h3>
                 </div>
@@ -262,8 +262,8 @@
         @apply overflow-x-hidden;
     }
     :global(.container) {
-        @apply max-w-sm  m-auto;
-        @apply xl:max-w-7xl;
+        @apply max-w-sm mx-auto px-5;
+        @apply xl:max-w-7xl xl:px-0;
     }
     :global(h1) {
         @apply font-extrabold text-6xl leading-tight tracking-tight;
@@ -309,7 +309,10 @@
     }
 
     .demo-stage {
-        @apply flex flex-col items-center mb-4;
+        @apply flex flex-col items-center mb-10;
+    }
+    .demo-stage h3 {
+        @apply mt-4;
     }
 
     @media (width >= 80rem) {
